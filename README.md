@@ -31,8 +31,8 @@ src/
 ## Setup Instructions
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd quiz-application
+git clone `https://github.com/neel-jotaniya/CausalFunnel.git`
+cd `CausalFunnel`
 ```
 
 2. Install dependencies
