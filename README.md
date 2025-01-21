@@ -3,14 +3,6 @@
 ## Overview
 This is a modern, interactive quiz application built with React, TypeScript, and Tailwind CSS. The application fetches trivia questions from the Open Trivia Database (OpenTDB) API and presents them in an engaging interface with features like a countdown timer, question navigation, and detailed results.
 
-### Key Features
-- Email-based user identification
-- 15 randomized trivia questions
-- 30-minute countdown timer
-- Interactive question navigation
-- Responsive design for all devices
-- Detailed results page with answer comparison
-- Smooth animations and transitions
 
 ## Technical Stack
 - **Frontend Framework**: React with TypeScript
@@ -39,8 +31,8 @@ src/
 ## Setup Instructions
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd quiz-application
+git clone https://github.com/neel-jotaniya/CausalFunnel.git
+cd CausalFunnel
 ```
 
 2. Install dependencies
@@ -90,32 +82,10 @@ The application uses React Context (QuizContext) to manage:
    - Challenge: Answer options were re-randomizing on each render
    - Solution: Implemented useMemo hook to stabilize answer order
 
-2. **Mobile Navigation**:
-   - Challenge: Limited screen space for navigation panel
-   - Solution: Created adaptive layout with bottom navigation for mobile
-
-3. **State Management**:
+2. **State Management**:
    - Challenge: Complex state interactions between components
    - Solution: Centralized state management with Context API
 
-4. **Timer Synchronization**:
+3. **Timer Synchronization**:
    - Challenge: Keeping timer accurate across navigation
    - Solution: Implemented persistent timer state in context
-
-## Assumptions
-- Users have stable internet connection for API calls
-- Modern browser support for CSS features
-- Single quiz session per user
-- Email-based identification is sufficient
-- 30-minute time limit is adequate for 15 questions
-
-## Future Improvements
-- User authentication system
-- Progress saving functionality
-- Different quiz categories
-- Difficulty selection
-- Score history tracking
-- Social sharing features
-
-## License
-This project is open source and available under the MIT License.
